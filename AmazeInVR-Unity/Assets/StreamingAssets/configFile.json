@@ -1,6 +1,6 @@
 {
     "logSettings": {
-        "sessionId": "participant2",
+        "sessionId": "AmazeInVR",
         "mainLogFolder": "E:/dsv/dev/git_repos/AmazeInVR/AmazeInVR-Unity/Assets/../LogFiles_ExciteOMeter/",
         "mainDebugFilename": "logDebug.txt",
         "sessionJsonFilename": "sessionData.json",

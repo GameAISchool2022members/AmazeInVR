@@ -1,13 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
+using ExciteOMeter;
 
 public class GameManager : MonoBehaviour {
 
 	public Maze mazePrefab;
+	public GameObject mazeGO;
 
-	public GameObject mazeAgentPrefab;
-	public GameObject vrPlayerPrefab;
-	public GameObject goalPrefab;
+	public GameObject cameraTopGO;
+	public GameObject vrPlayerGO;
+	public GameObject mazeAgentGO;
+	public GameObject goalGO;
 
 	private Maze mazeInstance;
 
@@ -22,7 +25,7 @@ public class GameManager : MonoBehaviour {
     }
 
     private void Start () {
-		BeginGame();
+		//BeginGame();
 	}
 	
 	private void Update () {
@@ -31,32 +34,36 @@ public class GameManager : MonoBehaviour {
 		//}
 	}
 
-	private void BeginGame () {
-		mazeInstance = Instantiate(mazePrefab) as Maze;
+	public void BeginGame () {
+		cameraTopGO.SetActive(true);
+		vrPlayerGO.SetActive(false);
+		mazeAgentGO.SetActive(false);
+		goalGO.SetActive(false);
+
+
+		mazeGO = Instantiate(mazePrefab.gameObject);
+		mazeInstance = mazeGO.GetComponent<Maze>();
+
 		StartCoroutine(mazeInstance.Generate());
 	}
 
 	public void MazeFinished()
     {
-		// Instantiate AI Agent
-		if(mazeAgentPrefab != null)
-        {
-			GameObject go = Instantiate(mazeAgentPrefab, Vector3.zero, Quaternion.identity);
-			//MazeAgent mazeAgent = go.GetComponent<MazeAgent>();
-		}
+		cameraTopGO.SetActive(false);
+		vrPlayerGO.SetActive(true);
+		mazeAgentGO.SetActive(true);
+		goalGO.SetActive(true);
 
-		// Instantiate VR player
-		if(vrPlayerPrefab != null)
-        {
-			GameObject goPlayer = Instantiate(vrPlayerPrefab, Vector3.zero, Quaternion.identity);
-			//MazeAgent player = go.GetComponent<MazeAgent>();
-		}
 
-		if(goalPrefab != null)
-        {
-			GameObject goal = Instantiate(goalPrefab, Vector3.zero, Quaternion.identity);
-			//MazeAgent player = go.GetComponent<MazeAgent>();
-		}
+		// Increase size of maze
+		mazeGO.transform.localScale = new Vector3(2f, 1f, 2f);
+
+		//EnemyDetector.instance.SetEnemies(mazeAgentGO.transform);
+	}
+
+	public void EndGame()
+    {
+		ExciteOMeterManager.instance.StartOrStopSessionLog();
 	}
 
 	private void RestartGame () {

@@ -50,7 +50,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e6176b5592b2c5c469b275f0700011f4, type: 3}
   - {fileID: 11400000, guid: 7890c170714a6af4e9563bd7770b7bb0, type: 3}
   - {fileID: 11400000, guid: 52226e24f621f9d4c954deb35497f20d, type: 3}
-  generationStepDelay: 0.01
+  generationStepDelay: 0.02
   passagePrefab: {fileID: 11400000, guid: 4db582300649e4e399ee4a2665f9e8e6, type: 3}
   wallPrefab:
   - {fileID: 11400000, guid: f186a78f73583e04a8c0bfca65aa2d9c, type: 3}
