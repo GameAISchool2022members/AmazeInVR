@@ -4,9 +4,9 @@
         "mainLogFolder": "E:/dsv/dev/git_repos/AmazeInVR/AmazeInVR-Unity/Assets/../LogFiles_ExciteOMeter/",
         "mainDebugFilename": "logDebug.txt",
         "sessionJsonFilename": "sessionData.json",
-        "recordScreenshots": true,
+        "recordScreenshots": false,
         "screenshotsPeriodSecs": 3.0,
-        "recordMovementData": true,
+        "recordMovementData": false,
         "recordMovementFrequency": 12
     },
     "featureSettings": {
@@ -43,7 +43,7 @@
         }
     },
     "offlineAnalysisSettings": {
-        "isInOfflineMode": false,
-        "callerSceneName": "ExampleSceneXR"
+        "isInOfflineMode": true,
+        "callerSceneName": "AmazeInVR"
     }
 }

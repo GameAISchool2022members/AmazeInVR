@@ -56,7 +56,7 @@ public class GameManager : MonoBehaviour {
 
 
 		// Increase size of maze
-		mazeGO.transform.localScale = new Vector3(2f, 1f, 2f);
+		mazeGO.transform.localScale = new Vector3(2.5f, 2f, 2.5f);
 
 		//EnemyDetector.instance.SetEnemies(mazeAgentGO.transform);
 	}
