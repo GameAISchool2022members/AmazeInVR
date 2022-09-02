@@ -1,0 +1,332 @@
+{
+    "HR": {
+        "timestamp": [
+            0.07999801635742188,
+            1.0999984741210938,
+            2.0999984741210939,
+            3.0999984741210939,
+            4.099998474121094,
+            5.099998474121094,
+            6.119998931884766,
+            7.119998931884766,
+            8.119998931884766,
+            9.119998931884766,
+            10.139999389648438,
+            11.139999389648438,
+            12.139999389648438,
+            13.139999389648438,
+            14.139999389648438,
+            15.139999389648438,
+            16.15999984741211,
+            17.18000030517578
+        ],
+        "value": [
+            73.0,
+            73.0,
+            73.0,
+            72.0,
+            71.0,
+            72.0,
+            71.0,
+            71.0,
+            72.0,
+            72.0,
+            72.0,
+            71.0,
+            71.0,
+            71.0,
+            71.0,
+            71.0,
+            72.0,
+            72.0
+        ],
+        "text": [],
+        "type": 1
+    },
+    "RRi": {
+        "timestamp": [
+            0.07999801635742188,
+            1.0999984741210938,
+            2.0999984741210939,
+            3.0999984741210939,
+            4.099998474121094,
+            5.099998474121094,
+            6.119998931884766,
+            7.119998931884766,
+            8.119998931884766,
+            9.119998931884766,
+            10.139999389648438,
+            11.139999389648438,
+            12.139999389648438,
+            13.139999389648438,
+            14.139999389648438,
+            15.139999389648438,
+            16.15999984741211,
+            17.18000030517578
+        ],
+        "value": [
+            759.40771484375,
+            769.8572998046875,
+            770.2001953125,
+            777.7118530273438,
+            788.980712890625,
+            776.1485595703125,
+            790.9522094726563,
+            791.6455688476563,
+            790.4796142578125,
+            791.4236450195313,
+            790.5713500976563,
+            797.630615234375,
+            789.9815673828125,
+            795.0609741210938,
+            798.4833984375,
+            787.9752197265625,
+            767.0371704101563,
+            770.9161376953125
+        ],
+        "text": [],
+        "type": 2
+    },
+    "RMSSD": {
+        "timestamp": [
+            0.07999801635742188,
+            1.0999984741210938,
+            2.0999984741210939,
+            3.0999984741210939,
+            4.099998474121094,
+            5.099998474121094,
+            6.119998931884766,
+            7.119998931884766,
+            8.119998931884766,
+            9.119998931884766
+        ],
+        "value": [
+            8.68758487701416,
+            8.68758487701416,
+            7.963805198669434,
+            8.303382873535157,
+            8.317307472229004,
+            7.611478805541992,
+            6.398440837860107,
+            5.372089862823486,
+            8.804388046264649,
+            8.89033317565918
+        ],
+        "text": [],
+        "type": 5
+    },
+    "SDNN": {
+        "timestamp": [
+            9.119998931884766
+        ],
+        "value": [
+            11.618630409240723
+        ],
+        "text": [],
+        "type": 6
+    },
+    "EOM": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 7
+    },
+    "automaticMarkers": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 8
+    },
+    "manualMarkers": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 9
+    },
+    "screenshots": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 10
+    },
+    "headset_posX": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 12
+    },
+    "headset_posY": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 13
+    },
+    "headset_posZ": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 14
+    },
+    "headset_q0": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 15
+    },
+    "headset_qi": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 16
+    },
+    "headset_qj": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 17
+    },
+    "headset_qk": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 18
+    },
+    "headset_yaw": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 20
+    },
+    "headset_pitch": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 19
+    },
+    "headset_roll": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 21
+    },
+    "headset_velPosX": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 23
+    },
+    "headset_velPosY": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 25
+    },
+    "headset_velPosZ": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 27
+    },
+    "headset_accPosX": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 24
+    },
+    "headset_accPosY": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 26
+    },
+    "headset_accPosZ": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 28
+    },
+    "headset_velQuat0": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 29
+    },
+    "headset_velQuati": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 30
+    },
+    "headset_velQuatj": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 31
+    },
+    "headset_velQuatk": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 32
+    },
+    "headset_accQuat0": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 33
+    },
+    "headset_accQuati": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 34
+    },
+    "headset_accQuatj": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 35
+    },
+    "headset_accQuatk": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 36
+    },
+    "headset_velEuleri": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 37
+    },
+    "headset_velEulerj": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 38
+    },
+    "headset_velEulerk": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 39
+    },
+    "headset_accEuleri": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 40
+    },
+    "headset_accEulerj": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 41
+    },
+    "headset_accEulerk": {
+        "timestamp": [],
+        "value": [],
+        "text": [],
+        "type": 42
+    }
+}
