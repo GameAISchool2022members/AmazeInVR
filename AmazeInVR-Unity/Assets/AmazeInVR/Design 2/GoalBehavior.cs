@@ -6,6 +6,7 @@ public class GoalBehavior : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        GameManager.instance.EndGame();
+        if(other.tag == "MainCamera")
+            GameManager.instance.EndGame();
     }
 }
